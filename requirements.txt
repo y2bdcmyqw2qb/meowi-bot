@@ -1,0 +1,4 @@
+rubika-bot-api
+aiohttp
+aiofiles
+requests
