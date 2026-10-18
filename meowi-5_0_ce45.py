@@ -799,6 +799,8 @@ def handle_command(command: str, user_id: str = "local-user", name: str = "کا�
         return f"💰 موجودی شما: {balance_of(user_id)} {setting('currency_name','سکه')}"
     if cmd == "/profile":
         return profile(user_id, name)
+    if cmd == "/id":
+        return f"🆔 شناسه عددی شما: {user_id}\nاین شناسه را به‌عنوان MEOWI_OWNER_ID در تنظیمات ربات وارد کن تا دسترسی مالک فعال شود."
     if cmd == "/top":
         return top_users()
     if cmd == "/shop":
